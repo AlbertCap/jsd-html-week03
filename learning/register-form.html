@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>แบบฟอร์มการสมัคร</h1>
+    <form action="" method="get">
+        <label>กรอกชื่อผู้ใช้ :
+            <input id="cname" type="text" name="cname" required placeholder="Ex: Albertza007" />
+        </label><br />
+
+        <label>รหัสผ่าน :
+            <input type="password" name="cpassword" required/>
+        </label><br />
+
+        <label>อีเมลล์
+            <input type="email" name="cemail" required placeholder="Ex: albertza@gmail.com"/>
+        </label><br />
+
+        <label>เลือกแพ็คเกจ: 
+            <input type="radio" name="package" value="package-free" checked/> Free
+        </label>
+        <label>
+            <input type="radio" name="package" value="package-premium" /> Premium
+        </label><br/>
+
+        <label>ความสนใจ: 
+            <input type="checkbox" name="interested" value="imovie" />ดูหนัง
+        </label>
+        <label>
+            <input type="checkbox" name="interested" value="imusic" />ฟังเพลง
+        </label>
+        <label>
+            <input type="checkbox" name="interested" value="igame" />เล่นเกม
+        </label><br/>
+
+        <label>
+            <button type="submit">ยืนยันการสมัคร</button>
+        </label>
+        
+    </form>
+</body>
+</html>

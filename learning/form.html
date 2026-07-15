@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Learning</title>
+</head>
+
+<body>
+    <h1>Pizza</h1>
+    <p>order here</p>
+    <form action="" method="get">
+        <p>ชื่อลูกค้า</p>
+        <label>กรอกชื่อของคุณ :
+            <input id="cname" type="text" name="cname" required />
+        </label>
+        <p>เลือกน้ำซุป</p>
+        <label>
+            <input type="radio" name="soup" />ซุปหมาล่า
+        </label>
+        <label>
+            <input type="radio" name="soup" />หมาล่านมสด
+        </label>
+        <label>
+            <input type="radio" name="soup" />ชาบูน้ำดำ
+        </label>
+
+        <p>เลือกของที่ชอบ</p>
+        <label>
+            <input type="checkbox" name="meat" value="pork" />
+            เนื้อหมู
+        </label>
+        <label>
+            <input type="checkbox" name="meat" value="chicken" />
+            เนื้อไก่
+        </label>
+        <label>
+            <input type="checkbox" name="meat" value="beef" />
+            เนื้อวัว
+        </label>
+        <label>
+            <input type="checkbox" name="vegetable" value="lettuce" />
+            ผักกาด
+        </label>
+        <label>
+            <input type="checkbox" name="vegetable" value="mushroom" />
+            เห็ด
+        </label>
+        <label>
+            <input type="checkbox" name="vegetable" value="morning-glory" />
+            ผักบุ้ง
+        </label>
+        <button type="submit">สั่งเลย</button>    
+    </form>
+</body>
+
+</html>
